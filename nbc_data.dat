@@ -1,0 +1,179 @@
+%YAML:1.0
+---
+opencv_ml_nbayes:
+   format: 3
+   var_count: 2
+   var_all: 2
+   cls_labels: !!opencv-matrix
+      rows: 5
+      cols: 1
+      dt: i
+      data: [ 0, 1, 2, 3, 4 ]
+   count:
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: i
+         data: [ 1, 1 ]
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: i
+         data: [ 1, 1 ]
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: i
+         data: [ 1, 1 ]
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: i
+         data: [ 1, 1 ]
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: i
+         data: [ 1, 1 ]
+   sum:
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: d
+         data: [ 0., 1. ]
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: d
+         data: [ 2., 3. ]
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: d
+         data: [ 4., 5. ]
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: d
+         data: [ 6., 7. ]
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: d
+         data: [ 8., 9. ]
+   productsum:
+      - !!opencv-matrix
+         rows: 2
+         cols: 2
+         dt: d
+         data: [ 0., 0., 0., 1. ]
+      - !!opencv-matrix
+         rows: 2
+         cols: 2
+         dt: d
+         data: [ 4., 6., 6., 9. ]
+      - !!opencv-matrix
+         rows: 2
+         cols: 2
+         dt: d
+         data: [ 16., 20., 20., 25. ]
+      - !!opencv-matrix
+         rows: 2
+         cols: 2
+         dt: d
+         data: [ 36., 42., 42., 49. ]
+      - !!opencv-matrix
+         rows: 2
+         cols: 2
+         dt: d
+         data: [ 64., 72., 72., 81. ]
+   avg:
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: d
+         data: [ 0., 1. ]
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: d
+         data: [ 2., 3. ]
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: d
+         data: [ 4., 5. ]
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: d
+         data: [ 6., 7. ]
+      - !!opencv-matrix
+         rows: 1
+         cols: 2
+         dt: d
+         data: [ 8., 9. ]
+   inv_eigen_values:
+      - !!opencv-matrix
+         rows: 2
+         cols: 1
+         dt: d
+         data: [ 8388608., 8388608. ]
+      - !!opencv-matrix
+         rows: 2
+         cols: 1
+         dt: d
+         data: [ 8388608., 8388608. ]
+      - !!opencv-matrix
+         rows: 2
+         cols: 1
+         dt: d
+         data: [ 8388608., 8388608. ]
+      - !!opencv-matrix
+         rows: 2
+         cols: 1
+         dt: d
+         data: [ 8388608., 8388608. ]
+      - !!opencv-matrix
+         rows: 2
+         cols: 1
+         dt: d
+         data: [ 8388608., 8388608. ]
+   cov_rotate_mats:
+      - !!opencv-matrix
+         rows: 2
+         cols: 2
+         dt: d
+         data: [ -7.0710678118654746e-01, -7.0710678118654746e-01,
+             7.0710678118654746e-01, -7.0710678118654746e-01 ]
+      - !!opencv-matrix
+         rows: 2
+         cols: 2
+         dt: d
+         data: [ -7.0710678118654746e-01, -7.0710678118654746e-01,
+             7.0710678118654746e-01, -7.0710678118654746e-01 ]
+      - !!opencv-matrix
+         rows: 2
+         cols: 2
+         dt: d
+         data: [ -7.0710678118654746e-01, -7.0710678118654746e-01,
+             7.0710678118654746e-01, -7.0710678118654746e-01 ]
+      - !!opencv-matrix
+         rows: 2
+         cols: 2
+         dt: d
+         data: [ -7.0710678118654746e-01, -7.0710678118654746e-01,
+             7.0710678118654746e-01, -7.0710678118654746e-01 ]
+      - !!opencv-matrix
+         rows: 2
+         cols: 2
+         dt: d
+         data: [ -7.0710678118654746e-01, -7.0710678118654746e-01,
+             7.0710678118654746e-01, -7.0710678118654746e-01 ]
+   c: !!opencv-matrix
+      rows: 1
+      cols: 5
+      dt: d
+      data: [ -3.1884770305757485e+01, -3.1884770305757485e+01,
+          -3.1884770305757485e+01, -3.1884770305757485e+01,
+          -3.1884770305757485e+01 ]
